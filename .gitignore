@@ -1,0 +1,9 @@
+# Publish only the recruiter-facing docs and the lab evidence.
+# The day-by-day task files stay local.
+*
+!*/
+!/.gitignore
+!/README.md
+!/karabonode-roadmap.md
+!**/evidence/**
+**/evidence/README.md
