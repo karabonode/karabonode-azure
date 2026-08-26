@@ -20,11 +20,14 @@ The environment so far: a Windows Server VM in Azure (`dc01-karabonode`, B-serie
 ### Month 1 — On-prem Active Directory foundations
 - ✅ **Week 1 — First domain controller:** Azure networking planned, VM deployed and secured, data disk prepared, AD DS installed, DC promoted, forest created and documented
 - 🔵 **Week 2 — DNS, OUs, users & groups:** DNS + SRV records verified ✅ · OU structure built ✅ · users created ✅ · security groups + AGDLP applied ✅ · week consolidation ⬜
-- ⬜ **Week 3 — Second DC & replication:** deploy, force replication, deliberately break and fix it
+- 🔵 **Week 3 — Second DC & replication:** dc02 deployed ✅ · DNS pointed and domain-joined ✅ · force replication, break/fix ⬜
 - ⬜ **Week 4 — Group Policy & AD cleanup:** password/login-script/software-restriction GPOs, stale-account cleanup exercise
 
 ### Month 2 — Hybrid identity, Intune, PowerShell
-- ⬜ Entra Connect sync on a dedicated member server, break/fix sync troubleshooting, Intune enrollment, 3 real PowerShell scripts, AZ-104 attempt
+- 🔵 **Week 1 — Entra Connect sync setup:** sync server deployed ✅ · prerequisites and current agent downloaded ✅ · Express setup installed ✅ · sync verified ✅ · write-up ⬜
+- ⬜ **Week 2 — Break/fix sync & identity concepts**
+- ⬜ **Week 3 — Intune enrollment**
+- ⬜ **Week 4 — PowerShell scripting & AZ-104 prep**
 
 ### Month 3 — SOC/SIEM depth + MITRE
 - ⬜ Sentinel rebuilt over the full environment, 5+ original analytics rules with MITRE ATT&CK technique IDs, AD attack simulated and detected, ticketing workflow
