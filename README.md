@@ -21,7 +21,7 @@ The environment so far: a Windows Server VM in Azure (`dc01-karabonode`, B-serie
 - ✅ **Week 1 — First domain controller:** Azure networking planned, VM deployed and secured, data disk prepared, AD DS installed, DC promoted, forest created and documented
 - 🔵 **Week 2 — DNS, OUs, users & groups:** DNS + SRV records verified ✅ · OU structure built ✅ · users created ✅ · security groups + AGDLP applied ✅ · week consolidation ⬜
 - 🔵 **Week 3 — Second DC & replication:** dc02 deployed ✅ · DNS pointed and domain-joined ✅ · force replication, break/fix ⬜
-- ⬜ **Week 4 — Group Policy & AD cleanup:** password/login-script/software-restriction GPOs, stale-account cleanup exercise
+- 🔵 **Week 4 — Group Policy & AD cleanup:** password policy GPO ✅ · logon script GPO ✅ · software restriction GPO ✅ · AD cleanup exercise ✅ · week consolidation ⬜
 
 ### Month 2 — Hybrid identity, Intune, PowerShell
 - 🔵 **Week 1 — Entra Connect sync setup:** sync server deployed ✅ · prerequisites and current agent downloaded ✅ · Express setup installed ✅ · sync verified ✅ · write-up ⬜
