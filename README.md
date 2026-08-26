@@ -19,12 +19,12 @@ The environment so far: a Windows Server VM in Azure (`dc01-karabonode`, B-serie
 
 ### Month 1 — On-prem Active Directory foundations
 - ✅ **Week 1 — First domain controller:** Azure networking planned, VM deployed and secured, data disk prepared, AD DS installed, DC promoted, forest created and documented
-- 🔵 **Week 2 — DNS, OUs, users & groups:** DNS + SRV records verified ✅ · OU structure built ✅ · users created ✅ · security groups + AGDLP applied ✅ 
-- 🔵 **Week 3 — Second DC & replication:** dc02 deployed ✅ · DNS pointed and domain-joined ✅
-- 🔵 **Week 4 — Group Policy & AD cleanup:** password policy GPO ✅ · logon script GPO ✅ · software restriction GPO ✅ · AD cleanup exercise ✅ 
+- ✅ **Week 2 — DNS, OUs, users & groups:** DNS + SRV records verified ✅ · OU structure built ✅ · users created ✅ · security groups + AGDLP applied ✅ 
+- ✅ **Week 3 — Second DC & replication:** dc02 deployed ✅ · DNS pointed and domain-joined ✅
+- ✅ **Week 4 — Group Policy & AD cleanup:** password policy GPO ✅ · logon script GPO ✅ · software restriction GPO ✅ · AD cleanup exercise ✅ 
 
 ### Month 2 — Hybrid identity, Intune, PowerShell
-- 🔵 **Week 1 — Entra Connect sync setup:** sync server deployed ✅ · prerequisites and current agent downloaded ✅ · Express setup installed ✅ · sync verified ✅ 
+- ✅ **Week 1 — Entra Connect sync setup:** sync server deployed ✅ · prerequisites and current agent downloaded ✅ · Express setup installed ✅ · sync verified ✅ 
 - ⬜ **Week 2 — Break/fix sync & identity concepts**
 - ⬜ **Week 3 — Intune enrollment**
 - ⬜ **Week 4 — PowerShell scripting & AZ-104 prep**
